@@ -6,7 +6,7 @@
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body class="bg-light">
+  <body class="bg-white">
 
     <!-- Simple header that include website name-->
     <header>
@@ -42,19 +42,32 @@
         <div class="row">
           <div class="col-lg-8 ">
             <h2 class="border bg-primary p-1 rounded">About Us</h2>
-            <p class="bg-info p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, beatae? Distinctio quae libero inventore architecto, nam beatae fugiat quam quod autem eligendi vitae consequatur dolore enim deleniti perspiciatis quaerat quisquam!
-            Earum, recusandae praesentium sint itaque ducimus totam dicta nisi facere corrupti, explicabo perspiciatis cum? Blanditiis rerum, provident nisi mollitia accusamus tenetur cumque aliquam atque dicta, voluptates, quidem quo fuga obcaecati!
-            Rerum rem magnam iusto neque tempora repudiandae nam, ratione voluptates commodi hic id sint, ad adipisci debitis et quia quasi aut, quo esse numquam magni cumque? Molestias amet nam deleniti.
-            Culpa voluptatum repellat repellendus alias. Et praesentium voluptate veritatis. Expedita tenetur, consequuntur deserunt beatae illum nihil quae minus ad maiores voluptas delectus ratione velit quibusdam porro labore consectetur praesentium repellat!
-            Deleniti assumenda iure id culpa incidunt cumque, sunt sint voluptates totam? Accusamus quod a, quasi nam quos rem earum dolor maiores quia. Maxime veritatis dicta hic, velit soluta deserunt accusantium?</p>
+            <p class="border bg-light p-1 rounded">Whether you missed out on exclusive merchandise or simply couldn't explore every corner of the convention, our webpage is your one-stop solution to access all the leftover treasures.
+              We've created a convenient platform where vendors can upload their remaining items to official merchandise companies, ensuring that you never miss the chance to own that coveted collectible or favorite anime-themed gear. 
+              Explore the virtual aisles, find what you missed, and complete your collection today!
+            </p>
           </div>
           <aside class="col-lg-4">
-            <div class="p-4 mb-3 bg-secondary rounded">
-              <h4>Sample Products</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque molestias quos autem, reprehenderit soluta dolores, ab officiis illum doloribus ipsam repellendus repudiandae cumque incidunt corrupti, alias voluptatibus maxime unde illo!</p>
+            <div class="p-4 mb-3 border rounded">
+              <h4 class="text-center">Recently Added</h4>
+              <div id="carouselRecents" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/image2.jpg" class="d-block w-100" alt="gojo1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/image3.jpg" class="d-block w-100" alt="gojo2">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecents" data-bs-slide="prev">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRecents" data-bs-slide="next">
+                </button>
+              </div>
             </div>
-            <div class="p-4 mb-3 bg-secondary rounded">
-              <h4>Contact Us For more Information</h4>
+            <div class="p-2 mb-3 bg-secondary rounded">
+              <h4 class="text-center">Contact Us For more Information</h4>
+              <p class="text-center">customerservice@webket.org</p>
             </div>
           </aside>
         </div>
