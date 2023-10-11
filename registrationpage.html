@@ -38,24 +38,24 @@
 
     <!-- Contains the main contents of the webpage-->
     <main>
-      <div class="container bg-primary ">
+      <div class="container">
         <div class="row mt-5">
           <div class="col-md-4 border bg-light m-auto rounded">
             <h2 class="text-center pt-3">Register Now</h2>
             <p class="text-center">Sign up with an email and create your password</p>
             <form action="/submit_form.html" method="post">
-                <input type="text" class="form-control" placeholder="Username" required minlength="4" maxlength="6"/>
-                <br>
-
+              <div class="input-item mb-2">
+                <input type="text" class="form-control" placeholder="Username" required minlength="4" maxlength="20"/>
+              </div>
+              <div class="input-item mb-2">
                 <input type="password" class="form-control" placeholder="Password" required minlength="6"/>
-                <br>
-
+              </div>
+              <div class="input-item mb-2">
                 <input type="password" class="form-control" placeholder="Confirm Password" required minlength="6"/>
-                <br>
-
+              </div>
+              <div class="input-item mb-2">
                 <input type="email" class="form-control" placeholder="Email" required/>
-                <br>
-                
+              </div>
               <div class="d-grid mb-3">
                 <button type="submit" class="btn btn-primary">Register</button>
               </div>
