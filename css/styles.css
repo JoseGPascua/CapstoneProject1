@@ -1,0 +1,19 @@
+.bg-primary {
+    background-color: #DFDFFE !important;
+}
+
+.bg-secondary {
+    background-color: #FFE4E1 !important;
+}
+
+.text-primary {
+    color: #020166 !important;
+}
+
+.bg-custom {
+    background-color: #EEEEEE !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #020166 !important;
+}
