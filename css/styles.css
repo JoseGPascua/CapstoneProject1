@@ -1,9 +1,13 @@
+
+
 .bg-primary {
-    background-color: #DFDFFE !important;
+    background: rgb(223,223,254);
+background: linear-gradient(180deg, rgba(223,223,254,1) 6%, rgba(229,229,254,1) 38%, rgba(244,244,255,1) 70%, rgba(251,251,255,1) 94%);
 }
 
 .bg-secondary {
-    background-color: #FFE4E1 !important;
+    background: rgb(255,228,225);
+background: linear-gradient(180deg, rgba(255,228,225,1) 28%, rgba(251,251,255,1) 94%);
 }
 
 .text-primary {
