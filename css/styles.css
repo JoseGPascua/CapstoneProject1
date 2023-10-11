@@ -21,3 +21,8 @@ background: linear-gradient(180deg, rgba(255,228,225,1) 28%, rgba(251,251,255,1)
 .navbar-light .navbar-nav .nav-link{
     color: #020166 !important;
 }
+
+.fixed-column {
+    max-width: 250px;
+    width: 250px;
+}
