@@ -25,3 +25,8 @@
     background-image: url(/images/bg2.png);
     background-repeat: repeat;
 }
+
+/*Edit the button primary color*/
+.btn-primary {
+    background-color: #020166 !important;
+}
