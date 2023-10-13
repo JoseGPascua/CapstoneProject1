@@ -9,5 +9,9 @@ This project is built on the idea of making a place where multiple "vendors" or 
 * Features a product page to display different items that are up for sale using Bootstrap's card features
 * Has an example checkout page with an order summary
 
-## Sample images
+## Sample images of each page
 <img src="images/abyssNovaAlbum.jpg" alt>
+
+## An interesting piece of HTML
+
+Although the website was made with basic HTML, CSS, and Bootstrap knowledge, there is not much to showcase. One thing that I did have fun working on was the registration page. Adding a survey that applied radio buttons and the last having to include a form-control because it required you type something in.
