@@ -11,7 +11,7 @@
 
     <!-- Simple header that include website name-->
     <header class="bg-primary ">
-      <img class="mx-auto d-block" src="images/logo.png" alt="" height="100" width="250">
+      <img class="mx-auto d-block" src="images/logo.png" alt="webket logo" height="100" width="250">
     </header>
 
     <!-- Navigation bar containing links to other parts of the webpage-->
@@ -47,11 +47,16 @@
 
     <!-- Contains the main contents of the webpage-->
     <main>
+      <!-- Container class that holds contents for the login page -->
       <div class="container">
+        <!-- Row class is used to keep contents in a row -->
         <div class="row mt-5">
+          <!-- Column class with breakpoints to keep contents in a single column -->
           <div class="col-sm-12 col-md-6 col-lg-4 border bg-primary text-primary m-auto rounded">
+            <img src="images/logo.png" alt="" class="mx-auto d-block img-fluid">
             <h3 class="text-center pt-3">Login</h3>
             <p class="text-center">Sign in using your login credentials</p>
+            <!-- Form tag that prompts user for their login information -->
             <form action="/submit_form.html" method="post">
               <div class="input-item mb-2">
                 <input type="text" class="form-control" placeholder="Username" required minlength="4" maxlength="20"/>
@@ -59,12 +64,14 @@
               <div class="input-item mb-2">
                 <input type="password" class="form-control" placeholder="Password" required minlength="6"/>
               </div>
+              <!-- Checkbox to remember user information -->
               <div class="form-check mb-2">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label for="flexCheckDefault" class="form-check-label">Remember me</label>
               </div>
-
+              
               <p class="text-muted">Don't have an account? <a href="loginpage.html" class="text-primary" style="text-decoration:none">Register here</a> </p> 
+              <!-- Button to login -->
               <div class="d-grid mb-3">
                 <button type="submit" class="btn btn-primary">Login</button>
               </div>
@@ -74,8 +81,41 @@
       </div>
     </main>
 
+    <!-- Footer at the bottom of page with extra links -->
+    <footer class="bg-secondary py-2 mt-5">
+      <!-- Container to keep the three different div tags lined up -->
+      <div class="container text-light d-flex justify-content-between align-items-center">
+        <!-- Div tag for copyright message and website name -->
+        <div>
+          <p class="display-5 mb-3 text-primary">WebKet</p>
+          <p class="text-primary">
+            &copy; Copyright by JP. All rights reserved
+          </p>
+        </div>
+        <!-- Div tag for information links -->
+        <div class="mt-5">
+          <h5 class="text-primary text-center">Information</h5>
+          <ul class="text-primary">
+            <li><a href="#" class="text-decoration-none text-reset">Contact Us</a></li>
+            <li><a href="#" class="text-decoration-none text-reset">Returns and Exchanges</a></li>
+            <li><a href="#" class="text-decoration-none text-reset">Partner with Us</a></li>
+          </ul>
+        </div>
+        <!-- Div tag for social media of webpage -->
+        <div class="mt-5">
+          <h5 class="text-primary text-center">Connect with us</h5>
+          <ul class="text-primary">
+            <li><a href="#" class="text-decoration-none text-reset">X (Twitter)</a></li>
+            <li><a href="#" class="text-decoration-none text-reset">Instagram</a></li>
+            <li><a href="#" class="text-decoration-none text-reset">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
     
 
+    <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
