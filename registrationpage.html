@@ -62,20 +62,20 @@
             <!-- Form that requires user information to be filled out using HTML validation -->
             <form action="/submit_form.html" method="post">
               <div class="input-item mb-2">
-                <input type="text" class="form-control" placeholder="Username" required minlength="4" maxlength="20"/>
+                <input type="text" class="form-control" placeholder="Username" required minlength="4" maxlength="20">
               </div>
               <div class="input-item mb-2">
-                <input type="password" class="form-control" placeholder="Password" required minlength="6"/>
+                <input type="password" class="form-control" placeholder="Password" required minlength="6">
               </div>
               <div class="input-item mb-2">
-                <input type="password" class="form-control" placeholder="Confirm Password" required minlength="6"/>
+                <input type="password" class="form-control" placeholder="Confirm Password" required minlength="6">
               </div>
               <div class="input-item mb-2">
-                <input type="email" class="form-control" placeholder="Email" required/>
+                <input type="email" class="form-control" placeholder="Email" required>
               </div>
               <hr>
-              <!-- Section tag that is nested into form tag to differentiate it's contents from user information -->
-              <section class="surveyInfo mt-4 mb-3">
+              <!-- Div tag that is nested into form tag to differentiate it's contents from user information -->
+              <div class="surveyInfo mt-4 mb-3">
                 <p>How did you hear about us?</p>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -102,18 +102,18 @@
                   </label>
                   <input class="form-control" type="text" name="Other" placeholder="Please Specify">
                 </div>
-              </section>
-              <!-- Section tag that keeps check boxes separate from user information and survey information -->
-              <section class="agreements">
+              </div>
+              <!-- Div tag that keeps check boxes separate from user information and survey information -->
+              <div class="agreements">
                 <div class="form-check mb-2">
                   <input class="form-check-input" type="checkbox" id="termsCheckbox">
-                  <label for="flexCheckDefault" class="form-check-label">I have read and agree to <a href="#" style="text-decoration:none">terms and conditions</a></label>
+                  <label for="termsCheckbox" class="form-check-label">I have read and agree to <a href="#" style="text-decoration:none">terms and conditions</a></label>
                 </div>
                 <div class="form-check mb-2">
                   <input class="form-check-input" type="checkbox" id="optionalCheckbox">
-                  <label for="flexCheckDefault" class="form-check-label">Subscribe to receive emails for our newsletters</label>
+                  <label for="optionalCheckbox" class="form-check-label">Subscribe to receive emails for our newsletters</label>
                 </div>
-              </section>
+              </div>
               <!-- Register button -->
               <div class="d-grid mb-3">
                 <button id="regBtn" type="submit" class="btn btn-primary">Register</button>
